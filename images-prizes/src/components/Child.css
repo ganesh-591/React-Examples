@@ -1,0 +1,51 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+  gap:5px;
+
+} 
+.main>div{
+  border:3px solid black;
+  justify-content:space-around ;
+  text-align: center;
+}
+ .main img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+ .main h2 {
+  margin: 10px 0 5px;
+}
+
+.main h3 {
+  margin: 5px 0 10px;
+}
+
+.main button {
+  margin-bottom: 5px;
+}
+ /* .main{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.main > div{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.main img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+}  */
